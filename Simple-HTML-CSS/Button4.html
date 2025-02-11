@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Contains some JavaScript -->
+<html>
+<head>
+    <title>BUTTONS!</title>
+</head>
+<body>
+    <h1>Surprise Below!</h1>
+    <p id="Greeting">For the Surprise</p>
+
+    <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color: aqua;">
+    Click me!</button>
+
+    <script>
+        function doSomething() {
+            // Get the element with the id "Greeting"
+            var greetingElement = document.getElementById("Greeting");
+
+            // Create an anchor tag with the YouTube video link
+            var youtubeLink = '<a href="https://youtu.be/1a7I5Rmdnug" target="_blank">Watch the Surprise Video!</a>';
+
+            // Set the innerHTML of the "Greeting" element to the YouTube link
+            greetingElement.innerHTML = youtubeLink;
+        }
+    </script>
+</body>
+</html>
