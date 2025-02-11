@@ -1,0 +1,67 @@
+body{
+    background-color: grey;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 73, 73);
+    font-size: 13em;
+    text-align: center;
+   /* animation-name: slideLeft;
+    animation-name: slideRight;
+    animation-name: slideUp;
+    animation-name: slideDown;
+    animation-name: rotateX;
+    animation-name: rotateZ;
+    animation-name: rotateZgoComeBack;
+    animation-name: grow;
+    animation-name: shrinkBackToNormal;
+    animation-name: glow; */
+    animation-name: colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-play-state: paused;
+    animation-timing-function: ease-in-out; */
+}
+@keyframes slideLeft{
+    from{transform: translateX(1200px)}
+}
+@keyframes slideRight{
+    to{transform: translateX(1200px)}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes rotateX{
+    100%{transform: rotateX(360deg)}
+}
+@keyframes rotateZ{
+    100%{transform: rotateZ(360deg)}
+}
+@keyframes rotateZgoComeBack{
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes grow{
+    100%{transform: scale(2,2)}
+}
+@keyframes shrinkBackToNormal{
+    50%{transform: scale(0.5,0.5)}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}
+@keyframes colorChange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: yellow;}
+    60%{background-color: green;}
+    80%{background-color: blue;}
+    100%{background-color: purple}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow}
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 73, 73);
+    font-size: 13em;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    opacity: 0;
+
+}
+@keyframes fadeIn{
+    100%{opacity: 1}
+}
