@@ -1,0 +1,38 @@
+@font-face{
+    src: url(Elements/GFonts/Oswald-Bold.ttf);
+    font-family: Oswald-Bold;
+}
+@font-face{
+    src: url(Elements/GFonts/RubikIso-Regular.ttf);
+    font-family: RubikIso Regular;
+}
+h1{
+    font-family: verdana, arial;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 18px;
+}
+#p2
+{
+    font-family: arial, helvetica;
+    font-size: 1.5em;
+}
+#p3{
+    font-family: arial, helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+#p4{
+    font-family: "Roboto", "sans serif";
+}
+#p5{
+    font-family: "Open Sans", "sans serif";
+}
+#p6{
+    font-family: "Oswald-Bold","arial";
+}
+#p7{
+    font-family: "RubikIso Regular"
+}

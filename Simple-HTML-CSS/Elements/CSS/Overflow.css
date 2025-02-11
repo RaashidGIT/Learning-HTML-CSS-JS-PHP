@@ -1,0 +1,10 @@
+#d1{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+#d2{
+    border: 4px solid;
+    height: 75px;
+    overflow: hidden;
+}

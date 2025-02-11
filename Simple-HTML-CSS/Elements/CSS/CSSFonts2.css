@@ -1,0 +1,14 @@
+@font-face{
+    src: url(Elements/GFonts/Oswald-Bold.ttf);
+    font-family: Oswald;
+}
+@font-face{
+    src: url(Elements/GFonts/RubikIso-Regular.ttf);
+    font-family: RubikIso;
+}
+#p6{
+    font-family: Oswald;
+}
+#p7{
+    font-family: RubikIso;
+}
